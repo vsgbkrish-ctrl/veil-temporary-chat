@@ -1,0 +1,14 @@
+{
+  "name": "veil-temporary-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-friendly, ephemeral two-person chat starter for Veil",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "helmet": "^8.0.0"
+  }
+}
